@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>28圈 · 资料整理与信息索引</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #fafafa;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #1e1e1e;
+      line-height: 1.7;
+      padding: 0 1.5rem;
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2.5rem 0 4rem;
+    }
+
+    /* hero */
+    .hero {
+      margin-bottom: 3.5rem;
+      padding-top: 3rem;
+      border-bottom: 1px solid #eaeaea;
+      padding-bottom: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 2.7rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      color: #111;
+      margin-bottom: 1.2rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #4b4b4b;
+      max-width: 640px;
+    }
+
+    /* section titles */
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 450;
+      border-left: 4px solid #2b7a5c;
+      padding-left: 1rem;
+      margin: 2.5rem 0 1rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin: 1.8rem 0 0.5rem;
+      color: #222;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      color: #3a3a3a;
+    }
+
+    a {
+      color: #1b6b5c;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+      transition: color 0.15s;
+    }
+
+    a:hover {
+      color: #0a4b3e;
+    }
+
+    /* 优势卡片组 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.2rem;
+      margin: 1.5rem 0 1rem;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid #e6e6e6;
+      border-radius: 8px;
+      padding: 1.2rem 1rem;
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    }
+
+    .card strong {
+      display: block;
+      font-weight: 500;
+      font-size: 1rem;
+      margin-bottom: 0.25rem;
+      color: #1f1f1f;
+    }
+
+    .card span {
+      font-size: 0.95rem;
+      color: #595959;
+    }
+
+    /* FAQ摘要 */
+    .faq-item {
+      border-bottom: 1px solid #ececec;
+      padding: 1rem 0;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+
+    .faq-q {
+      font-weight: 500;
+      font-size: 1rem;
+      margin-bottom: 0.2rem;
+      color: #1a1a1a;
+    }
+
+    .faq-a {
+      color: #555;
+      font-size: 0.95rem;
+      padding-left: 0.5rem;
+    }
+
+    /* 底部 */
+    .footer-links {
+      margin-top: 3.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e0e0e0;
+      font-size: 0.9rem;
+      color: #777;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem 1.5rem;
+    }
+
+    .footer-links span {
+      cursor: default;
+    }
+
+    .footer-links a {
+      color: #4a4a4a;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* 响应式 */
+    @media (max-width: 600px) {
+      body {
+        padding: 0 1rem;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .card-grid {
+        grid-template-columns: 1fr;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        padding-left: 0.8rem;
+      }
+    }
+
+    @media (max-width: 440px) {
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .card {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- hero -->
+    <div class="hero">
+      <h1>信息索引 · 资料整理</h1>
+      <p>从信息洪流中筛选、归类、串联，是一件持续但有价值的事。<strong>28圈</strong> 便围绕这样一条线索展开：让围绕某一主题的文档、链接和笔记，拥有更清晰的编排与入口。</p>
+    </div>
+
+    <!-- 优势区 (卡片) -->
+    <h2>为什么关注资料的组织方式</h2>
+    <div class="card-grid">
+      <div class="card">
+        <strong>结构化归类</strong>
+        <span>通过主题、标签或时间线重组信息碎片，降低重复查找成本。</span>
+      </div>
+      <div class="card">
+        <strong>索引优先</strong>
+        <span>不堆砌原始数据，而是提供指向原始资源的高质量索引。</span>
+      </div>
+      <div class="card">
+        <strong>轻量低噪</strong>
+        <span>界面简洁，聚焦内容本身，减少无关干扰。</span>
+      </div>
+      <div class="card">
+        <strong>持续迭代</strong>
+        <span>索引随资料更新而修订，避免静态过时。</span>
+      </div>
+    </div>
+
+    <!-- 说明区：切入角度 -->
+    <h2>从资料整理到信息索引</h2>
+    <p>日常研究或兴趣探索中，真正的挑战往往不是缺少信息，而是缺乏有效的整理与定位方法。<a href="https://office-28circle.com">28圈</a> 尝试从“资料整理”和“信息索引”这两个角度切入，让每一个条目都成为可回溯的节点，而非孤立的标签。</p>
+    <p>例如，在一个主题下聚集相关的文档、参考链接和简要批注，再通过统一的入口快速检索。这一思路类似数字笔记中的“MOC”（内容地图）——不同的是，它被部署在网页上，对所有人开放查阅。</p>
+
+    <h3>可能的适用场景</h3>
+    <p>对于希望系统梳理某个知识领域、项目文档或兴趣话题的人来说，这类索引尤其有用。你可以把它看作一个不断生长的目录：既可以用于个人备忘，也适合小范围共享。</p>
+
+    <!-- FAQ 摘要 -->
+    <h2>常见疑问摘要</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">这个网站是做什么的？</div>
+      <div class="faq-a">一个围绕特定主题进行资料整理和信息索引的静态页面集合。它不提供原创研究报告，而是搭建结构化入口。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">内容会定期更新吗？</div>
+      <div class="faq-a">索引会随资料积累而修订，但更新频率不固定，以实际内容完善为准。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">我可以提交资料或建议吗？</div>
+      <div class="faq-a">目前主要通过已有的公开页面进行浏览。未来若有协作机制会另行说明。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">“28圈”的命名有什么含义？</div>
+      <div class="faq-a">代表一个聚焦的信息环，便于记忆和定位。本质上它只是一个命名符号。</div>
+    </div>
+
+    <!-- 底部链接区 -->
+    <div class="footer-links">
+      <span>资料索引 · 持续整理中</span>
+      <a href="https://office-28circle.com">28圈</a>
+      <span>·</span>
+      <span>内容仅供信息参考</span>
+      <span>·</span>
+      <span>无诱导承诺</span>
+    </div>
+
+  </div>
+</body>
+</html>
